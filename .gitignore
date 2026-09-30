@@ -1,6 +1,27 @@
-.venv/
-__pycache__/
-*.py[cod]
-*$py.class
+# Gradle build output
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE & Editor settings
+.idea/
+*.iml
+.vscode/
+*.ipr
+*.iws
+
+# Eclipse
+.settings/
+.classpath
+.project
+.factorypath
+
+# Maven
+target/
+
+# System & Logs
 *.log
 .DS_Store
+Thumbs.db
+*.swp
+*~
